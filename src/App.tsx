@@ -1,7 +1,6 @@
 import { AudioControls } from "./components/audio-controls";
 import { TrackList } from "./components/track-list";
 import { Navbar } from "./components/navbar";
-import { Timeline } from "./components/timeline";
 
 function App() {
 	return (

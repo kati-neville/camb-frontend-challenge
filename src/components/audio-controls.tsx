@@ -1,7 +1,6 @@
 import { Button } from "./button";
 
 import play from "../assets/svgs/play.svg";
-import pause from "../assets/svgs/pause.svg";
 import forward from "../assets/svgs/forward.svg";
 import { Badge } from "./badge";
 

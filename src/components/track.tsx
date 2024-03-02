@@ -17,8 +17,7 @@ export type Analyzer = {
 };
 
 export default function Track({ index }: { index: number }) {
-	const { attributes, listeners, setNodeRef, transform, transition } =
-		useSortable({ id: index });
+	const { transform, transition } = useSortable({ id: index });
 	const inputRef: LegacyRef<HTMLInputElement> = useRef(null);
 	const [audio, setAudio] = useState({ name: "", url: "" });
 	const [isPaused, setIsPaused] = useState(false);

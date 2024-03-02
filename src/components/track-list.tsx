@@ -6,7 +6,6 @@ import {
 import Track from "./track";
 import { DndContext, DragEndEvent, closestCenter } from "@dnd-kit/core";
 import { useRef, useState } from "react";
-import { Timeline } from "./timeline";
 
 export const TrackList = () => {
 	const trackListWrapperRef = useRef<HTMLDivElement>(null);
