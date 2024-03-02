@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--camb-purple: #6742b6;
+		--camb-orange: #f05c0c;
+		--camb-pink: #b21c56;
+	}
+}
