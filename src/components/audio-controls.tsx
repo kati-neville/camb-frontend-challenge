@@ -6,11 +6,7 @@ import { Badge } from "./badge";
 
 export const AudioControls = () => {
 	return (
-		<div className="w-full relative text-camb-white h-full flex items-center justify-center">
-			<div className="absolute left-0">
-				<Badge>00:01:17 / 00:30:10</Badge>
-			</div>
-
+		<div className="w-full relative text-camb-white h-full flex md:flex-row flex-col md:space-y-0 space-y-4 items-center justify-center">
 			<div className="flex justify-center items-center space-x-4">
 				<Button className="bg-camb-primary-500">
 					<img
@@ -25,6 +21,10 @@ export const AudioControls = () => {
 				<Button className="bg-camb-primary-500 text-white">
 					<img src={forward} alt="forward icon" />
 				</Button>
+			</div>
+
+			<div className="md:absolute left-0">
+				<Badge>00:01:17 / 00:30:10</Badge>
 			</div>
 		</div>
 	);
