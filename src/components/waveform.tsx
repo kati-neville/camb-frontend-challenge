@@ -2,7 +2,7 @@
 
 import { useRef, useEffect } from "react";
 import { animateBars, getTrackWidth } from "../utils";
-import { Analyzer } from "./track";
+import { Analyzer } from "./track-list";
 
 const WaveForm = ({
 	analyzerData,

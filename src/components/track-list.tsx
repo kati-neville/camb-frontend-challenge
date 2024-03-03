@@ -14,7 +14,7 @@ export type AudioFile = {
 	analyzerData: Analyzer;
 };
 
-type Analyzer = {
+export type Analyzer = {
 	analyzer?: AnalyserNode;
 	bufferLength?: number;
 	dataArray?: Uint8Array;
